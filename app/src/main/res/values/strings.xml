@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GobPlaylists</string>
+    <string name="title_activity_play_list">PlayList</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="error_api">The unicorn is DEAD. Quest fail.</string>
+    <string name="title_activity_pager">Pager</string>
+    <string name="title_activity_search">Search</string>
+    <string name="btn_valider">Ask the unicorn to find your playlist</string>
+    <string name="title_activity_splash">Splash</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="goto_manual">Manual Search</string>
+    <string name="goto_auto">Automatic Search</string>
+    <string name="desciption_logo">logo</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="label_artist">Enter an artist ...</string>
+    <string name="save_pl">Save this playlist for me</string>
+    <string name="label_variety">Select the variety factor</string>
+    <string name="label_adventurousness">... and the adventurousness factor</string>
+    <string name="label_max_results">Define the max results count</string>
+    <string name="label_genre">Automatic playlist by genre</string>
+    <string name="label_loudness">and set the loudness !</string>
+
+</resources>

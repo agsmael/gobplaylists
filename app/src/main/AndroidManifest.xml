@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="crm.workshop.echonest" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <receiver
+            android:name="crm.workshop.echonest.utils.AlarmReceiver"
+            android:enabled="true" />
+
+        <service android:name="crm.workshop.echonest.utils.AlarmService" />
+
+        <activity
+            android:name="crm.workshop.echonest.playlist.PlayListActivity"
+            android:label="@string/title_activity_play_list"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+
+            <!--
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            -->
+        </activity>
+        <activity
+            android:name="crm.workshop.echonest.playlist.PagerActivity"
+            android:label="@string/title_activity_pager"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+        </activity>
+        <activity
+            android:name="crm.workshop.echonest.playlist.SearchActivity"
+            android:label="@string/title_activity_search"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="crm.workshop.echonest.playlist.SplashActivity"
+            android:label="@string/title_activity_splash"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="crm.workshop.echonest.playlist.HomeActivity"
+            android:icon="@drawable/empty"
+            android:label="">
+        </activity>
+    </application>
+
+</manifest>
